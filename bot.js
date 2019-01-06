@@ -27,7 +27,7 @@ client.user.setGame(`$help`,"http://twitch.tv/S-F")
   console.log('')
 });
 
-onst fs = require('fs');
+const fs = require('fs');
  
 client.on('ready', () => {
   console.log(`Welcome Bro ${client.user.tag}!`);
